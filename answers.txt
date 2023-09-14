@@ -1,0 +1,25 @@
+Q1:
+https://github.com/ale2cs
+
+Q2:
+I already have the requests library installed and the version is 2.28.2.
+
+Q3:
+After installing the requests library with "pip install requests" in my 
+virtualenv, the library is installed and the version is 2.31.0
+
+Q4:
+The difference between the virtual environment and the not virutal environment
+python is that the virtual environment python has version 2.31.0 and the not 
+virtual environment has version 2.28.2.
+
+Q5:
+The status code returned for http://google.com was 301 Moved Permanently. To get
+the 200 status code we should use the url http://www.google.com.
+
+Q6:
+The status code returned for http://google.com was 418. The 418 status code was
+returned by using both cur -i and curl -iL. When you curl 
+http://www.google.com/teapot it only returns the html.
+
+Q7:
