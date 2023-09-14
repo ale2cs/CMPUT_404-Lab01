@@ -1,5 +1,5 @@
 Q1:
-https://github.com/ale2cs
+URL: https://github.com/ale2cs
 
 Q2:
 I already have the requests library installed and the version is 2.28.2.
@@ -20,6 +20,20 @@ the 200 status code we should use the url http://www.google.com.
 Q6:
 The status code returned for http://google.com was 418. The 418 status code was
 returned by using both cur -i and curl -iL. When you curl 
-http://www.google.com/teapot it only returns the html.
+http://www.google.com/teapot does not return a status code and only returns the
+text.
 
 Q7:
+The output that used -X POST:
+- Does not have <P>No form fields.
+- Has <DT>X: <i>&lt;type 'instance'&gt;</i>
+	  <DD>MiniFieldStorage('X', 'Y')
+- Has <DT> CONTENT_LENGTH <DD> 3
+      <DT> CONTENT_TYPE <DD> application/x-www-form 
+- REMOTE_PORT is 33434 rather than 56598
+- REQUEST_METHOD is POST instead of GET
+- UNIQUE_ID is different.
+Using -X POST would be useful when you need to make a post request.
+
+Q8:
+URL: https://github.com/ale2cs/CMPUT_404-Lab01/blob/main/lab01.py
